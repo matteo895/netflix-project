@@ -13,13 +13,22 @@ function App() {
     <div className="App ">
       <NetflixNav />
       <SottoNav />
-      <Container className="d-flex mb-5 mt-5">
+      <Container className="mt-4">
+        <h2>Treading Now</h2>
+      </Container>
+      <Container className="d-flex mb-5 mt-4">
         <TrendingNow />
       </Container>
-      <Container className="d-flex mb-5 mt-5">
+      <Container className="mt-3">
+        <h2>Watch it Again</h2>
+      </Container>
+      <Container className="d-flex mb-5 mt-4">
         <WatchItAgain />
       </Container>
-      <Container className="d-flex  mt-5">
+      <Container className="mt-3">
+        <h2>New Releases</h2>
+      </Container>
+      <Container className="d-flex  mt-4">
         <NewReleases />
       </Container>
       <NetflixFooter />

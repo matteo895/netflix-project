@@ -32,7 +32,7 @@ class TrendingNow extends Component {
           return (
             <div key={production.imdbID}>
               <img
-                className="img-fluid h-100 objact-fit-cover"
+                className="img-fluid h-100 objact-fit-contain"
                 src={production.Poster}
                 alt={production.Title}
               />
