@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import NetflixNav from "./components/NetflixNav";
+import SottoNav from "./components/SottoNav";
+import NetflixFooter from "./components/NetflixFooter";
+import TrendingNow from "./components/TrendingNow.jsx";
+import WatchItAgain from "./components/WatchITAgain.jsx";
+import NewReleases from "./components/NewReleases.jsx";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Container from "react-bootstrap/Container";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App ">
+      <NetflixNav />
+      <SottoNav />
+      <Container className="d-flex mb-5 mt-5">
+        <TrendingNow />
+      </Container>
+      <Container className="d-flex mb-5 mt-5">
+        <WatchItAgain />
+      </Container>
+      <Container className="d-flex  mt-5">
+        <NewReleases />
+      </Container>
+      <NetflixFooter />
     </div>
   );
 }
