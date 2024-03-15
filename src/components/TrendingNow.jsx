@@ -30,9 +30,9 @@ class TrendingNow extends Component {
       <>
         {this.state.movie.map((production) => {
           return (
-            <div key={production.imdbID}>
+            <div key={production.imdbID} className="me-3">
               <img
-                className="img-fluid h-100 objact-fit-contain"
+                className="img-fluid h-100 objact-fit-cover me-3"
                 src={production.Poster}
                 alt={production.Title}
               />
