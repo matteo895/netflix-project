@@ -10,23 +10,29 @@ import Container from "react-bootstrap/Container";
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App">
       <NetflixNav />
       <SottoNav />
-      <Container className="mt-4">
-        <h2>Treading Now</h2>
+      <Container className="mt-5 zoom2">
+        <a href="#" className="text-decoration-none text-white">
+          <h2>Treading Now</h2>
+        </a>
       </Container>
       <Container className="d-flex mb-5 mt-4">
         <TrendingNow />
       </Container>
-      <Container className="mt-3">
-        <h2>Watch it Again</h2>
+      <Container className="mt-3 zoom2">
+        <a href="#" className="text-decoration-none text-white">
+          <h2>Watch it Again</h2>
+        </a>
       </Container>
       <Container className="d-flex mb-5 mt-4">
         <WatchItAgain />
       </Container>
-      <Container className="mt-3">
-        <h2>New Releases</h2>
+      <Container className="mt-3 zoom2">
+        <a href="#" className="text-decoration-none text-white">
+          <h2>New Releases</h2>
+        </a>
       </Container>
       <Container className="d-flex  mt-4">
         <NewReleases />

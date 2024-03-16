@@ -3,13 +3,13 @@ import { Container, Row, Col, Dropdown, Nav } from "react-bootstrap";
 
 function SottoNav() {
   return (
-    <Container>
+    <Container className="mt-5">
       <Row className="justify-content-between align-items-center">
         <Col>
           <div className="d-flex">
             <h2 className="me-4">TV Show</h2>
             <Dropdown id="bottone-1">
-              <Dropdown.Toggle variant="outline-light" className="border  mt-2">
+              <Dropdown.Toggle variant="outline-light" className="zoom">
                 Genres
               </Dropdown.Toggle>
               <Dropdown.Menu>
@@ -23,21 +23,21 @@ function SottoNav() {
         </Col>
         <Col>
           <div className="d-flex justify-content-end align-items-center">
-            <div className="border">
+            <div className="border zoom2">
               <Nav.Link href="#" style={{ padding: "0 0.5rem" }}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
                   height="15"
                   fill="currentColor"
-                  className="bi bi-grid-fill"
+                  className="bi bi-grid-fill "
                   viewBox="0 0 16 16"
                 >
                   <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 105 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A15 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z" />
                 </svg>
               </Nav.Link>
             </div>
-            <div className="border">
+            <div className="border zoom2">
               <Nav.Link href="#" style={{ padding: "0 0.5rem" }}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

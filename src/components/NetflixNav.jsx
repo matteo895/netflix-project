@@ -5,35 +5,49 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function NetflixNav() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar bg="black" variant="dark" expand="lg" className="mb-4">
       <div className="container">
         <Navbar.Brand href="#">
-          <img src="/public/img/netflix_logo.png" alt="logo" />
+          <img
+            src="https://www.caviarcriativo.com/storage/2020/06/Significados-da-Marca-Netflix-1.gif"
+            alt="logo"
+            style={{ width: "9rem" }}
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarSupportedContent" />
-        <Navbar.Collapse id="navbarSupportedContent">
+        <Navbar.Collapse
+          id="navbarSupportedContent"
+          style={{ fontSize: "17px" }}
+        >
           <Nav className="me-auto">
-            <Nav.Link href="#" className="active text-white opacity-50">
+            <Nav.Link href="../App.js" className="active text-white zoom2 me-2">
               Home
             </Nav.Link>
-            <NavDropdown title="TV Shows" id="basic-nav-dropdown">
+            <NavDropdown
+              title="TV Shows"
+              id="basic-nav-dropdown "
+              className="zoom2 me-2"
+            >
               <NavDropdown.Item href="#">Action</NavDropdown.Item>
               <NavDropdown.Item href="#">Another action</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">Something else here</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" className="text-white opacity-50">
+            <Nav.Link href="#" className="text-white opacity-50 zoom2 me-2">
               Movies
             </Nav.Link>
-            <Nav.Link href="#" className="text-white opacity-50">
+            <Nav.Link href="#" className="text-white opacity-50 zoom2 me-2">
               Recently Added
             </Nav.Link>
-            <Nav.Link href="#" className="text-white opacity-50">
+            <Nav.Link href="#" className="text-white opacity-50 zoom2">
               My list
             </Nav.Link>
           </Nav>
           <form className="d-flex">
-            <Nav.Link href="#" className="nav-link text-white mt-0 me-3">
+            <Nav.Link
+              href="#"
+              className="nav-link text-white mt-0 me-3 zoom2 me-4"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -45,10 +59,16 @@ function NetflixNav() {
                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
               </svg>
             </Nav.Link>
-            <Nav.Link href="#" className="nav-link text-white mt-0 me-3">
+            <Nav.Link
+              href="#"
+              className="nav-link text-white mt-0 me-3 zoom2 me-4"
+            >
               Kids
             </Nav.Link>
-            <Nav.Link href="#" className="nav-link text-white mt-0 me-3">
+            <Nav.Link
+              href="#"
+              className="nav-link text-white mt-0 me-3 zoom2 me-4"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -61,11 +81,13 @@ function NetflixNav() {
               </svg>
             </Nav.Link>
             <NavDropdown
+              className="zoom2"
               title={
                 <img
-                  src="/public/img/kids_icon.png"
+                  src="https://www.thesun.co.uk/wp-content/uploads/2023/02/netflix-downloads-op.jpg?strip=all&quality=100&w=1080&h=1080&crop=1"
                   className="img-fluid img-small mt-0 me-1"
                   alt="kids"
+                  style={{ width: "1.7rem" }}
                 />
               }
               id="basic-nav-dropdown"

@@ -3,12 +3,15 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 
 const NetflixFooter = () => {
   return (
-    <footer className="bd-footer py-4 py-md-5 mt-5 opacity-75">
+    <footer
+      className="bd-footer py-4 py-md-5 mt-5 opacity-75"
+      style={{ fontSize: "17px" }}
+    >
       <Container>
         <Row className="justify-content-center">
           <Col xs={12} style={{ width: "80%" }}>
             <div className="d-flex">
-              <div className="mr-5">
+              <div className="mr-5 zoom2">
                 <a href="#" className="nav-link text-white mt-0 me-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +25,7 @@ const NetflixFooter = () => {
                   </svg>
                 </a>
               </div>
-              <div>
+              <div className="zoom2">
                 <a href="#" className="nav-link text-white mt-0 me-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +39,7 @@ const NetflixFooter = () => {
                   </svg>
                 </a>
               </div>
-              <div>
+              <div className="zoom2">
                 <a href="#" className="nav-link text-white mt-0 me-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +53,7 @@ const NetflixFooter = () => {
                   </svg>
                 </a>
               </div>
-              <div>
+              <div className="zoom2">
                 <a href="#" className="nav-link text-white mt-0 me-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -74,22 +77,22 @@ const NetflixFooter = () => {
               <Col xs={6} md={3}>
                 <ul className="list-unstyled small mt-3">
                   <li className="mb-2">
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item zoom2" href="#">
                       Audio and Subtitle
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item zoom2" href="#">
                       Media Center
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item zoom2" href="#">
                       Privacy
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item zoom2" href="#">
                       Contact Us
                     </a>
                   </li>
@@ -98,17 +101,17 @@ const NetflixFooter = () => {
               <Col xs={6} md={3}>
                 <ul className="list-unstyled small mt-3">
                   <li className="mb-2">
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item zoom2" href="#">
                       Audio Descriptio
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item zoom2" href="#">
                       Investin Relations
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item zoom2" href="#">
                       Legal Notice
                     </a>
                   </li>
@@ -118,17 +121,17 @@ const NetflixFooter = () => {
               <Col xs={6} md={3}>
                 <ul className="list-unstyled small mt-3">
                   <li className="mb-2">
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item zoom2" href="#">
                       Help Center
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item zoom2" href="#">
                       Jobs
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item zoom2" href="#">
                       Cookie Preferences
                     </a>
                   </li>
@@ -138,17 +141,17 @@ const NetflixFooter = () => {
               <Col xs={6} md={3}>
                 <ul className="list-unstyled small mt-3">
                   <li className="mb-2">
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item zoom2" href="#">
                       Gift card
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item zoom2" href="#">
                       Terms of Us
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item zoom2" href="#">
                       Corporate information
                     </a>
                   </li>
@@ -160,7 +163,7 @@ const NetflixFooter = () => {
 
         <Row className="justify-content-center">
           <Col xs={12} style={{ width: "80%" }}>
-            <button className="btn btn-outline-light mt-3">
+            <button className="btn btn-outline-light mt-3 zoom">
               <a href="#" className="text-decoration-none text-reset">
                 Service code
               </a>

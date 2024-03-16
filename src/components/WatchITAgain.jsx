@@ -31,11 +31,13 @@ class TrendingNow extends Component {
         {this.state.movie.map((production) => {
           return (
             <div key={production.imdbID} className="me-3">
-              <img
-                className="img-fluid h-100 objact-fit-cover "
-                src={production.Poster}
-                alt={production.Title}
-              />
+              <a href="#">
+                <img
+                  className="zoom img-fluid h-100 objact-fit-cover "
+                  src={production.Poster}
+                  alt={production.Title}
+                />
+              </a>
             </div>
           );
         })}
